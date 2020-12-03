@@ -48,7 +48,8 @@ const commentController =
             }
         },
         {
-            new: true
+            new: true,
+            runValidators: true
         })
         .then(dbPizzaData =>
         {
